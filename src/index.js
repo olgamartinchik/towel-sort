@@ -12,7 +12,7 @@ module.exports = function towelSort(matrix) {
     for (let j = 0; j < arr.length; j++) {
         if (!(j % 2 === 0)) {
             arr[j].reverse()
-            console.log(arr[j])
+
         }
     }
     return arr.flat(2);
